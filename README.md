@@ -22,7 +22,7 @@ git clone https://github.com/your-username/Eventalk.git
 ## 📸 Screenshots
 
 ## Live Demo 🌍
-Check out the live demo of the project **here**.
+Check out the live demo of the project [**here**](https://jinnat36.github.io/Eventalk/).
 
 ## 📝 License
 This project is licensed under the **MIT** License.
