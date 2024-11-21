@@ -31,7 +31,7 @@ This project is licensed under the **MIT** License.
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
 
 ## 📧 Contact
-For questions or feedback, reach out at jinnatkhatun31@gmai.com.
+For questions or feedback, reach out at jinnatkhatun31@gmail.com.
 
 ## Author 👨‍💻
 Created by Your Name. Feel free to reach out for any questions or suggestions!
