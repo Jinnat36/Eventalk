@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Log-In</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <style>
+    body {
+      background-color: black;
+    }
+
+    #fp {
+      margin-bottom: px;
+      color: red;
+    }
+
+    #reg:hover {
+      color: #ff6219;
+    }
+
+    #tab-register:hover {
+      background-color: rgb(36, 127, 219);
+      color: white;
+    }
+
+    #tab-login:hover {
+      background-color: rgb(36, 127, 219);
+      color: white;
+    }
+  </style>
+</head>
+
+<body class="p-0 m-0 border-0 bd-example m-0 border-0 ">
+
+
+  <div class="container">
+
+    <section class="vh-100">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-xl-10">
+            <div class="card" style="border-radius: 1rem;">
+              <div class="row g-0">
+                <div class="col-md-6 col-lg-5 d-none d-md-block">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                    alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                </div>
+                <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                  <div class="card-body p-4 p-lg-5 text-black">
+
+
+                    <form>
+
+                      <div class="text-center mb-3">
+                        <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                        <span class="h1 fw-bold mb-0">Eventalk</span>
+                      </div>
+                      <div class="text-center mb-3">
+                        <p>Sign in with:</p>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="email" id="form2Example17" class="form-control form-control-lg"
+                            placeholder="Email or Username" required />
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="password" id="form2Example27" class="form-control form-control-lg"
+                            placeholder="Password" required />
+                          <a class="small text-muted" href="#!" id="fp">Forgot password?</a>
+                        </div>
+
+                        <div class="pt-1 mb-4">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-lg btn-block"
+                            style="background-color: rgb(49, 138, 227);" type="button" id="login">
+                            Login
+                          </button>
+                        </div>
+
+                        <!-- Pills navs -->
+                        <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="tab-login" data-mdb-pill-init href="#pills-login" role="tab"
+                              aria-controls="pills-login" aria-selected="true">Login</a>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="tab-register" data-mdb-pill-init href="registration.html" role="tab"
+                              aria-controls="pills-register" aria-selected="false">Register</a>
+                          </li>
+                        </ul>
+
+                        <!-- Pills content -->
+                        <div class="tab-content">
+                          <div class="tab-pane fade show active" id="pills-login" role="tabpanel"
+                            aria-labelledby="tab-login">
+                            <form>
+
+                              <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                              </button>
+
+                              <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                              </button>
+
+                              <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                              </button>
+
+                              <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                              </button>
+                          </div>
+                          <a href="#!" class="small text-muted">Terms of use.</a>
+                          <a href="#!" class="small text-muted">Privacy policy</a>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+    document.getElementById("login").addEventListener("click", function () {
+      const emailOrUsername = document.getElementById("form2Example17").value;
+      const password = document.getElementById("form2Example27").value;
+
+      // Check if both fields are filled
+      if (emailOrUsername && password) {
+        // Redirect to home page if validation passes
+        window.location.href = "index.html";
+      } else {
+        alert("Please fill in both the Email or Username and Password fields.");
+      }
+    });
+  </script>
+
+</body>
+
+</html>
