@@ -20,6 +20,7 @@ git clone https://github.com/your-username/Eventalk.git
 **Open the Project** Navigate to the project folder and open **index.html** in your favorite browser. 
 
 ## 📸 Screenshots
+![eventalkmain](https://github.com/user-attachments/assets/ee95939e-41d4-45cf-99d7-e50328fecf0a)
 
 ## Live Demo 🌍
 Check out the live demo of the project [**here**](https://jinnat36.github.io/Eventalk/).
