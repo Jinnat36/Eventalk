@@ -35,5 +35,5 @@ Contributions, issues, and feature requests are welcome! Feel free to fork the r
 For questions or feedback, reach out at jinnatkhatun31@gmail.com.
 
 ## Author 👨‍💻
-Created by Your Name. Feel free to reach out for any questions or suggestions!
+Created by Jinnat Ara Khatun. Feel free to reach out for any questions or suggestions!
 
